@@ -1,7 +1,7 @@
 class User {
   constructor(name) {
     this.name = name;
-    this.viewers = 0;
+    this.viewers = undefined;
     User.count += 1;
   }
 
