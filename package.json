@@ -4,7 +4,7 @@
   "description": "",
   "main": "parserPup.js",
   "dependencies": {
-    "puppeteer": "^2.0.0"
+    "puppeteer": "^5.1.0"
   },
   "devDependencies": {},
   "scripts": {

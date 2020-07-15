@@ -32,7 +32,7 @@ const deferredGet = (page, selector, attempt = 0) => new Promise((res, rej) => {
 );
 
 let scrape = async (page, login) => {
-  const elementSelector = '.tw-stat__value';
+  const elementSelector = '.tw-animated-number--monospaced';
   await page.goto(`https://www.twitch.tv/${login}`);
   await page.waitForSelector(elementSelector, {timeout: 0});
   const viewersLive = await deferredGet(page, elementSelector);
